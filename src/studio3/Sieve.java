@@ -15,11 +15,6 @@ public class Sieve {
 			values[i] = i+2;
 		}
 		
-		/*for(int i = 0; i < n; i++)
-		{
-			System.out.print(values[i] + " ");
-		}*/
-		
 		boolean [] primeNumber = new boolean[n];
 		for(int i = 0; i < n; i++)
 		{
@@ -48,39 +43,7 @@ public class Sieve {
 			}
 			
 		}
-		
-		
-		
-		/*boolean [] primeNumber = new boolean[n];
-		primeNumber[0] = false;
-		for(int i = 1; i < n; i++)
-		{
-			primeNumber[i] = true;
-		}
-		
-		for(int i = 1; i < n; i+=2)
-		{
-			primeNumber[i] = false;
-		}
-		
-		for(int i = 0; i < n; i++)
-		{
-			System.out.print(primeNumber[i] + " ");
-		}
-		
-		for(int i =0; i < n; i++)
-		{
-			if(primeNumber[i] == true)
-			{
-				System.out.println(values[i]);
-			}
-		}
-		
-		*/
-		
-		
 			
-		
 
 	}
 
